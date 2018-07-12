@@ -17,7 +17,7 @@
 			"@install:plugin-wpml",
 			"@install:plugin-wpml-management",
 			"@install:plugin-wpml-media",
-			"@install:plugin-wpml-string",
+			"@install:plugin-wpml-string"
 		]
 	}
 }
