@@ -1,17 +1,20 @@
 {
 	"name": "planet4-luxembourg/planet4-luxembourg",
-	"version": "0.0.2",
+	"version": "1.25.0",
 
 	"require": {
-		"greenpeace/planet4-child-theme-luxembourg" : "0.*"
+		"greenpeace/planet4-child-theme-luxembourg" : "0.*",
+		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
 	},
 
 	"scripts": {
 		"install:plugin-wpml": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/sitepress-multilingual-cms-3.9.3.zip",
 		"install:plugin-wpml-management": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wpml-translation-management-2.5.2.zip",
+		"install:plugin-wpimport": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wp-all-import-pro_4.5.4.zip",
 		"site:custom" : [
 			"@install:plugin-wpml",
-			"@install:plugin-wpml-management"
+			"@install:plugin-wpml-management",
+			"@install:plugin-wpimport"
 		]
 	}
 }
