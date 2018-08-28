@@ -1,6 +1,5 @@
 {
 	"name": "planet4-luxembourg/planet4-luxembourg",
-	"version": "1.26.0",
 
 	"require": {
 		"greenpeace/planet4-child-theme-luxembourg" : "0.*",
