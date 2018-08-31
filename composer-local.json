@@ -12,12 +12,14 @@
 		"install:plugin-wpml-management": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wpml-translation-management.2.6.6.zip",
 		"install:plugin-wpml-allimport": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wpml-all-import.2.0.5.zip",
 		"install:plugin-wpimport": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wp-all-import-pro_4.5.4.zip",
+		"install:plugin-wpml-searchwp": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/searchwp-wpml-1.4.0.zip",
 		"site:custom" : [
 			"@core:language",
 			"@install:plugin-wpml",
 			"@install:plugin-wpml-management",
 			"@install:plugin-wpimport",
-			"@install:plugin-wpml-allimport"
+			"@install:plugin-wpml-allimport",
+			"@install:plugin-wpml-searchwp"
 		]
 	}
 }
