@@ -2,7 +2,7 @@
 	"name": "planet4-luxembourg/planet4-luxembourg",
 
 	"require": {
-		"greenpeace/planet4-child-theme-luxembourg" : "1.29.8",
+		"greenpeace/planet4-child-theme-luxembourg" : "1.29.9",
 		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
 	},
 
