@@ -3,8 +3,7 @@
 	"description": "Greenpeace P4 Luxembourg",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme-luxembourg" : "2.0.3",
-		"greenpeace/planet4-master-theme" : "dev-planet-3172"
+		"greenpeace/planet4-child-theme-luxembourg" : "2.0.3"
 	},
 
 	"scripts": {
