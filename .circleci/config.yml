@@ -8,6 +8,7 @@ job_environments:
   common_environment: &common_environment
     CONTAINER_PREFIX: planet4-luxembourg
     APP_HOSTPATH: luxembourg
+    INFRA_VERSION: v0.10.198
     WP_DB_NAME_PREFIX: luxembourg_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
