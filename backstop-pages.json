@@ -1,0 +1,40 @@
+{
+  "scenarios": [
+    {
+      "label": "Planet4 Luxembourg FR act page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/agir/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Luxembourg FR explore page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/sinformer/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Luxembourg FR privacy and cookies page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/conditions-generales-dutilisation/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Luxembourg DE act page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/de/handeln/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Luxembourg DE explore page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/de/sich-informieren/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Luxembourg DE privacy and cookies page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/de/nutzungsbedingungen/",
+      "delay": 2000,
+      "misMatchThreshold": 0.5
+    }
+  ]
+}
