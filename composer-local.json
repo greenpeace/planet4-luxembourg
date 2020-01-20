@@ -5,7 +5,6 @@
 	"require": {
 		"greenpeace/planet4-child-theme-luxembourg" : "dev-cleaning/header"
 	},
-
 	"scripts": {
 		"core:language": "wp language core install fr_CA",
 		"core:language2": "wp language core install de_DE",
