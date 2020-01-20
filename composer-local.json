@@ -3,9 +3,8 @@
 	"description": "Greenpeace P4 Luxembourg",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme-luxembourg" : "2.0.6"
+		"greenpeace/planet4-child-theme-luxembourg" : "dev-cleaning/header"
 	},
-
 	"scripts": {
 		"core:language": "wp language core install fr_CA",
 		"core:language2": "wp language core install de_DE",
