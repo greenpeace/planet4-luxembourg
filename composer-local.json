@@ -1,20 +1,20 @@
 {
-	"name": "planet4-luxembourg/planet4-luxembourg",
-	"description": "Greenpeace P4 Luxembourg",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-luxembourg" : "dev-cleaning/header",
-		"plugins/sitepress-multilingual-cms": "*",
-		"plugins/wpml-translation-management": "*",
-		"plugins/wpml-string-translation": "*"
-	},
-	"scripts": {
-		"core:language": "wp language core install fr_CA",
-		"core:language2": "wp language core install de_DE",
-		"site:custom" : [
-			"@core:language",
-			"@core:language2"
-		]
-	}
+    "name": "planet4-luxembourg/planet4-luxembourg",
+    "description": "Greenpeace P4 Luxembourg",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-luxembourg" : "dev-cleaning/header",
+        "plugins/sitepress-multilingual-cms": "*",
+        "plugins/wpml-translation-management": "*",
+        "plugins/wpml-string-translation": "*"
+    },
+    "scripts": {
+        "core:language": "wp language core install fr_CA",
+        "core:language2": "wp language core install de_DE",
+        "site:custom" : [
+            "@core:language",
+            "@core:language2"
+        ]
+    }
 }
 
