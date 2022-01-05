@@ -3,7 +3,7 @@
     "description": "Greenpeace P4 Luxembourg",
     "license": "MIT",
     "require": {
-        "greenpeace/planet4-child-theme-luxembourg" : "dev-navbar-fix",
+        "greenpeace/planet4-child-theme-luxembourg" : "dev-master",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-translation-management": "*",
         "plugins/wpml-string-translation": "*",
