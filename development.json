@@ -1,0 +1,5 @@
+{
+  "require": {
+    "wpackagist-plugin/gf-salesforce-crmperks": "1.3.3"
+  }
+}
