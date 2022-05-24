@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:v1.2.145
       auth:
         <<: *docker_auth
 
@@ -55,7 +55,7 @@ job_environments:
     MIN_REPLICA_COUNT: 2
     WP_DB_NAME: luxembourg_wordpress_master
     WP_STATELESS_BUCKET: planet4-luxembourg-stateless
-
+    PHP_MEMORY_LIMIT: 2Gi
 
 commands:
   approve_job:
