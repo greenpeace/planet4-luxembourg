@@ -6,7 +6,8 @@
         "greenpeace/planet4-child-theme-luxembourg" : "dev-main",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-string-translation": "*",
-        "plugins/gravityformswebhooks": "*"
+        "plugins/gravityformswebhooks": "*",
+	"wpackagist-plugin/smart-phone-field-for-gravity-forms":"*"
     },
     "scripts": {
         "core:language": "wp language core install fr_CA",
