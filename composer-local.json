@@ -8,7 +8,6 @@
         "plugins/wpml-string-translation": "*",
         "plugins/gravityformswebhooks": "*",
         "wpackagist-plugin/smart-phone-field-for-gravity-forms":"1.5",
-        "wpackagist-plugin/post-type-switcher": "3.3.0",
         "plugins/wpml-elasticpress": "*"
     },
     "scripts": {
