@@ -8,8 +8,7 @@
         "plugins/wpml-string-translation": "*",
         "plugins/gravityformswebhooks": "*",
         "wpackagist-plugin/smart-phone-field-for-gravity-forms":"1.5",
-        "plugins/wpml-elasticpress": "*",
-        "wpackagist-plugin/wp-all-export": "1.3.3"
+        "plugins/wpml-elasticpress": "*"
     },
     "scripts": {
         "core:language": "wp language core install fr_CA",
